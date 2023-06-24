@@ -1,0 +1,105 @@
+.sidebar {
+    width: 304px;
+    padding: 24px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.sidebarzn {
+    width: 304px;
+    padding: 24px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.sidebartype {
+    width: 304px;
+    padding: 24px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.sidebarplatf {
+    width: 304px;
+    padding: 24px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .title {
+    font-weight: 600;
+    line-height: 20px;
+  }
+  
+  .menu {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  
+  .link {
+    color: var(--dark-sea);
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+  }
+  
+  .link:hover {
+    color: var(--white);
+  }
+  
+  .link.active {
+    color: var(--violet);
+  }
+  
+  .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    background: var(--dark);
+    border-radius: 6px;
+    height: 27px;
+    padding: 7px 10px;
+    column-gap: 16px;
+    width: 300px;
+    position: relative;
+  }
+
+  .icon {
+    width: 13px;
+    height: 13px;
+  }
+
+  .input {
+    flex-grow: 1;
+  }
+  
+  .input input {
+    font-family: Montserrat, Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--grey);
+    background: none;
+    outline: none;
+    width: 100%;
+  }
+  
+
+  .sidebartyperasr {
+    width: 304px;
+    padding: 24px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+  }
